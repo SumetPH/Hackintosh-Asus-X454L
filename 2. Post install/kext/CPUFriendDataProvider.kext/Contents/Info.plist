@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>org.vanilla.driver.CPUFriendDataProvider</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>CPUFriendDataProvider</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.0</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>CPUFriendDataProvider</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.AppleACPIPlatform</string>
+			<key>IOClass</key>
+			<string>AppleACPICPU</string>
+			<key>IONameMatch</key>
+			<string>processor</string>
+			<key>IOProbeScore</key>
+			<integer>1100</integer>
+			<key>IOProviderClass</key>
+			<string>IOACPIPlatformDevice</string>
+			<key>cf-frequency-data</key>
+			<data>U1NEVBUDAAABylNhdGFSZVNhdGFUYWJsABAAAElOVEwTCRIgEEYJXAAIU1RGRREKCgcQBgAAAADvCFNURkQRCgoHkAYAAAAA7whGWlRGEQoKBwAAAAAAAPUIRENGTBEKCgfBAAAAAACxCFNDQkYRAwoVCENNREMAFEIER1RGQgp3Q01EQwo4YFsTU0NCRmAKOENNRFh3Q01EQwoHYIxTQ0JGcmABAEEwMDFwaENNRFhwaUEwMDF1Q01EQxBJJVwvA19TQl9QQ0kwU0FUMAhSRUdGARQSX1JFRwKgC5NoCgJwaVJFR0YIVE1EMBEDChSKVE1EMABQSU8wilRNRDAKBERNQTCKVE1EMAoIUElPMYpUTUQwCgxETUExilRNRDAKEENITkYUMl9HVE0AcAp4UElPMHAKFERNQTBwCnhQSU8xcAoURE1BMX1DSE5GCgVDSE5GpFRNRDAUBl9TVE0DW4JEBVNQVDAIX0FEUgv//xRFBF9HVEYAcABDTURDoBSRRFNTUEZIUFBHVEZCU1RGRAoGoQtHVEZCU1RGRQoGR1RGQkZaVEYAR1RGQkRDRkwApFNDQkZbgkYFU1BUMghfQURSDP//AgAURQRfR1RGAHAAQ01EQ6AUkURTU1BGSFBQR1RGQlNURkQKBqELR1RGQlNURkUKBkdURkJGWlRGAEdURkJEQ0ZMAKRTQ0JGW4JGBVNQVDMIX0FEUgz//wMAFEUEX0dURgBwAENNREOgFJFEU1NQRkhQUEdURkJTVEZECgahC0dURkJTVEZFCgZHVEZCRlpURgBHVEZCRENGTACkU0NCRluCRgVTUFQ0CF9BRFIM//8EABRFBF9HVEYAcABDTURDoBSRRFNTUEZIUFBHVEZCU1RGRAoGoQtHVEZCU1RGRQoGR1RGQkZaVEYAR1RGQkRDRkwApFNDQkZbgkYFU1BUNQhfQURSDP//BQAURQRfR1RGAHAAQ01EQ6AUkURTU1BGSFBQR1RGQlNURkQKBqELR1RGQlNURkUKBkdURkJGWlRGAEdURkJEQ0ZMAKRTQ0JG</data>
+		</dict>
+	</dict>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2017 - 2019 PMheart. All rights reserved.</string>
+	<key>OSBundleRequired</key>
+	<string>Root</string>
+</dict>
+</plist>

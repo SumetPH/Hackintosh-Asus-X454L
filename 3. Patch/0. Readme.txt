@@ -1,0 +1,11 @@
+1. [Guide] Patching LAPTOP DSDT/SSDTs
+Link : https://www.tonymacx86.com/threads/guide-patching-laptop-dsdt-ssdts.152573/
+
+2. [Guide] Disabling discrete graphics in dual-GPU laptops
+Link : https://www.tonymacx86.com/threads/guide-disabling-discrete-graphics-in-dual-gpu-laptops.163772/
+
+3. [Guide] Creating a Custom SSDT for USBInjectAll.kext
+Link : https://www.tonymacx86.com/threads/guide-creting-a-custom-ssdt-for-usbinjectall-kext.211311/
+
+4. AsusSMC
+Link : https://github.com/hieplpvip/AsusSMC/wiki/Installation-Instruction
